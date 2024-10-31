@@ -21,7 +21,7 @@ public class AutoReplay : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-        if (timer > 5)
+        if (timer > 10)
         {
             Data.score = 0;
             EnemyController.EnemyKilled = 0;

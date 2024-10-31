@@ -111,9 +111,9 @@ void OnCollisionEnter2D(Collision2D col)
            
             EnemyKilled++;
 
-                if (EnemyKilled == 3)
+                if (EnemyKilled == 4)
                 {
-                    SceneManager.LoadScene("Game Over");
+                    SceneManager.LoadScene("Congrats");
                 }
         }
 
